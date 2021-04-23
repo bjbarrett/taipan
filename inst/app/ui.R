@@ -21,12 +21,12 @@ shinyUI(
             imageOutput("out_img_overlay",
                         click = clickOpts(id = "img_click"),
                         dblclick = dblclickOpts(id = "img_dblclick"),
-                        brush = brushOpts(id = "img_brush", stroke = "#00A65A", fill = "green", opacity = 1),
+                        brush = brushOpts(id = "img_brush", stroke = "#00A65A", fill = "green", opacity = 0.2),
                         inline=TRUE),
             imageOutput("out_img",
                         inline = TRUE)
         ),
-        width = 12,
+        width = 20,
         status = "primary",
         collapsible = TRUE
       ),
